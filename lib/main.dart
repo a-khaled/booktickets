@@ -1,3 +1,4 @@
+import 'package:booktickets/utils/app_styles.dart';
 import 'package:flutter/material.dart';
 
 import 'Screens/bottom_bar.dart';
@@ -15,7 +16,7 @@ class MyApp extends StatelessWidget {
       title: 'Flutter Demo',
       theme: ThemeData(
 
-        primarySwatch: Colors.blue,
+        primaryColor: primary,
       ),
       home: const BottomBar(),
       debugShowCheckedModeBanner: false,

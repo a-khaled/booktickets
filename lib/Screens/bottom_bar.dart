@@ -1,4 +1,5 @@
 import 'package:booktickets/Screens/home_screem.dart';
+import 'package:booktickets/Screens/profile_screen.dart';
 import 'package:booktickets/Screens/search_screen.dart';
 import 'package:booktickets/Screens/ticket_screen.dart';
 import 'package:fluentui_icons/fluentui_icons.dart';
@@ -17,7 +18,7 @@ class _BottomBarState extends State<BottomBar> {
     const HomeScreen(),
     const SearchScreen(),
     const TicketScreen(),
-    const Text('Profile'),
+    const ProfileScreen(),
   ];
 
   void _onItemTapped(int index) {
